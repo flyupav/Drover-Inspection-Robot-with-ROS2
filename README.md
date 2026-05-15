@@ -49,7 +49,7 @@ or
 ```
 ros2 service call /turn_camera_capture rover_interfaces/srv/CaptureCameraAtAngle "{angle: 1.57}"
 ```
-![Alt text](docs/obstacle_avoidance.gif)
+![Alt text](docs/camera_rotate_capture.gif)
 
 The camera rotates to the requested angle and returns the captured image.
 
