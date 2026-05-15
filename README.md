@@ -32,3 +32,11 @@ The rover inspection robot can autonomously navigate to a goal while avoiding ob
 ```
 ros2 run rover_control rover_navigation_action_client
 ```
+Then the user is prompted to insert x, y, z of the target point, or, as another option, the user can send the target point as an action directly:
+```
+ros2 action send_goal /navigate rover_interfaces/action/NavigateToPoint "{goal_point: {x: 4.0, y: 2.0, z: 0.0}}"
+```
+The rover will drive toward the target point while using lidar data to avoid obstacles.
+
+![Alt text](docs/obstacle_avoidance.gif)
+
