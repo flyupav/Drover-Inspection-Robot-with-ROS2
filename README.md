@@ -11,3 +11,6 @@ The rover demonstrates core robotics capabilities, including:
 - Sensor integration (camera, lidar, IMU)
 - ROS ↔ Gazebo topic bridging
 - Autonomous navigation with obstacle avoidance
+
+## System Architecture
+
