@@ -40,3 +40,17 @@ The rover will drive toward the target point while using lidar data to avoid obs
 
 ![Alt text](docs/obstacle_avoidance.gif)
 
+## Capture an image at a camera angle
+
+```
+ros2 run rover_control rover_camera_capture_service_client 1.57
+```
+or
+```
+ros2 service call /turn_camera_capture rover_interfaces/srv/CaptureCameraAtAngle "{angle: 1.57}"
+```
+![Alt text](docs/obstacle_avoidance.gif)
+
+The camera rotates to the requested angle and returns the captured image.
+
+
