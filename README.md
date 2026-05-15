@@ -22,4 +22,4 @@ The following diagram illustrates the architecture of the rover inspection robot
 
 The Drover inspection robot running in Gazebo.
 
-![Alt text](docs/rover_simulation.png)
+<img src="docs/rover_simulation.png" alt="Description" width="400">
