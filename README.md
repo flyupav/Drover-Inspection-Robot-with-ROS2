@@ -14,4 +14,5 @@ The rover demonstrates core robotics capabilities, including:
 
 ## System Architecture
 The following diagram illustrates the architecture of the rover inspection robot system and the interaction between Gazebo simulation and ROS2 nodes.
+
 ![Alt text](docs/architecture_diagram_drover_inspection.png)
