@@ -22,4 +22,13 @@ The following diagram illustrates the architecture of the rover inspection robot
 
 The Drover inspection robot running in Gazebo.
 
-<img src="docs/rover_simulation.png" alt="Description" width="400">
+<img src="docs/rover_simulation.png" alt="Description" width="400">.
+
+## Demo
+
+The rover inspection robot can autonomously navigate to a goal while avoiding obstacles and capture images using a controllable camera.
+
+## Send a navigation goal
+```
+ros2 run rover_control rover_navigation_action_client
+```
